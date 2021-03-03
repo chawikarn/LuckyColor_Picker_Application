@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Moo Picker</string>
+
+
+    <string-array name="Day_array">
+
+        <item>Monday</item>
+        <item>Tuseday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+
+    <string-array name="wardrobe_array">
+        <item>Select Item</item>
+        <item>Tops</item>
+        <item>Trousers</item>
+        <item>Skirt</item>
+        <item>One suit</item>
+        <item>Shoes</item>
+        <item>Accessories</item>
+        <item>Others</item>
+    </string-array>
+</resources>

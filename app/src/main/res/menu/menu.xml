@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/Add"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="ifRoom"
+        android:title="TODO" />
+
+
+<item android:id="@+id/item0"
+android:icon="@drawable/ic_clothes_hanger"
+    android:title="Item 1"
+    app:showAsAction="ifRoom" />
+
+
+
+
+
+    <item android:id="@+id/item1"
+    android:icon ="@drawable/ic_clothes_hanger"
+    android:title="Top"
+    app:showAsAction="never" />
+
+    <item android:id="@+id/item2"
+        android:icon="@drawable/ic_clothes_hanger"
+        android:title="Trousers"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/item3"
+        android:icon="@drawable/ic_clothes_hanger"
+        android:title="Skirt"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/item4"
+        android:icon="@drawable/ic_clothes_hanger"
+        android:title="One suit"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/item5"
+        android:icon="@drawable/ic_clothes_hanger"
+        android:title="Shoes"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/item6"
+        android:icon="@drawable/ic_clothes_hanger"
+        android:title="Accessories"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item7"
+        android:background="@drawable/ic_clothes_hanger"
+        android:title="Others"
+        app:showAsAction="never"/>
+
+</menu>

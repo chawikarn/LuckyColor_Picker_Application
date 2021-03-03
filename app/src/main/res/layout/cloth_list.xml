@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activiy_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:orientation="vertical">
+
+
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/box"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:src="@drawable/brown" />
+
+    <RadioGroup
+        android:layout_width="326dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="10dp"
+            android:contextClickable="false"
+            android:background="@drawable/shape"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/idc"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:layout_centerHorizontal="true"
+               android:contextClickable="false"
+
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="1dp"
+                android:background="@drawable/ic_clothes_hanger"
+                android:onClick="color" />
+
+        </RadioGroup>
+
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textSize="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/c">
+
+
+    </TextView>
+
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:columnWidth="100dp"
+        android:layout_marginTop="100dp"
+
+        android:gravity="center"
+        android:numColumns="2"
+
+        >
+
+
+    </GridView>
+
+
+</RelativeLayout>
+

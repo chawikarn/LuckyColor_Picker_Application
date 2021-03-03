@@ -1,0 +1,60 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activiy_list2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <RadioGroup
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageViewCloth"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/shape"
+            >
+        </ImageView>
+    <RadioGroup
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="choose"
+            android:layout_marginTop="50dp">
+        </TextView>
+        <Spinner
+
+            android:layout_marginTop="50dp"
+            android:id="@+id/edtName"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:textSize="100dp"
+            android:entries="@array/wardrobe_array" />
+    </RadioGroup>>
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="UPDATE">
+
+        </Button>
+
+    </RadioGroup>>
+
+</RelativeLayout>

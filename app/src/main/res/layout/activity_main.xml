@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b1">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white"
+        android:layout_marginLeft="200dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Today is"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+
+    </RadioGroup>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/text_message"
+        android:text="Select Days"
+        android:textColor="#FAFEF9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal"
+
+        android:background="@drawable/white">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="55dp"
+            android:layout_height="70dp"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"
+            android:text="Day | " />
+
+        <Spinner
+            android:id="@+id/Day_array"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+
+            android:entries="@array/Day_array" />
+        <ImageView
+
+            android:id="@+id/clover"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:onClick="color"
+            android:src="@drawable/ic_clover"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RadioGroup>
+
+    <TextView
+
+        android:id="@+id/Topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="Select topic you want"
+        android:textColor="#FAFEF9" />
+    <RadioGroup
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+
+
+        android:id="@+id/Money"
+        android:background="@drawable/white"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:onClick="Money"
+        android:src="@drawable/ic_dollar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/MoneyT"
+            android:textColor="#BA10130F"
+            android:text="Money"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+        <RadioGroup
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginLeft="20dp"
+
+                android:id="@+id/Work"
+                android:background="@drawable/white"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+
+                android:src="@drawable/ic_work"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:layout_centerVertical="true"
+
+                android:onClick="Work"/>
+            <TextView
+                android:textColor="#BA10130F"
+                android:id="@+id/WorkT"
+                android:text="Work"
+                android:layout_marginLeft="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </RadioGroup>
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+
+                android:id="@+id/Enaging"
+                android:background="@drawable/white"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:onClick="Engage"
+                android:src="@drawable/ic_engaging"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:id="@+id/engage"
+              
+                android:text="Engaging"
+                android:textColor="#BA10130F"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </RadioGroup>
+        <RadioGroup
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/Love"
+                android:background="@drawable/white"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:onClick="Love"
+                android:src="@drawable/ic_love"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:id="@+id/LoveT"
+                android:text="Love"
+                android:textColor="#BA10130F"
+                android:layout_marginLeft="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </RadioGroup>
+
+    </RadioGroup>
+
+    </RadioGroup>
+
+    <ImageView
+        android:layout_width="300dp"
+
+android:layout_marginTop="50dp"
+       android:longClickable="false"
+        android:layout_height="150dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="web"
+        android:src="@mipmap/ic_launcher3"
+
+        />
+
+
+</LinearLayout>

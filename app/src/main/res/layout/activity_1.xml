@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gggg">
+
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/Topic"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/text_message"
+            android:text="Lucky Color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/No"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_clover"
+            android:onClick="color" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/colorname1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:id="@+id/color"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:layout_marginLeft="130dp"/>
+    <TextView
+        android:id="@+id/color2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"/>
+
+
+
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/Avoid1"
+        android:text="Bad Luck !!"
+        android:textColor="#EF3109"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"/>
+
+
+
+
+    </RadioGroup>
+    <RadioGroup
+        android:layout_marginTop="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+
+        android:id="@+id/colorname2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"/>
+    <ImageView
+        android:id="@+id/clover"
+        android:layout_width="92dp"
+        android:layout_height="70dp"
+
+        android:onClick="color"
+        android:src="@drawable/ic_no" />
+    </RadioGroup>>
+    <TextView
+
+        android:id="@+id/Avoid"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"/>
+    <TextView
+
+        android:id="@+id/Avoid2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"/>
+
+
+
+
+</LinearLayout>
